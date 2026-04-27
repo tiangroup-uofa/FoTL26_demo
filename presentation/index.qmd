@@ -82,9 +82,13 @@ The materials in this talk are heavily influenced by two of my courses taught in
 
   - **Equity**: No "it doesn’t run on my computer."
 
-  - **Inclusiveness**: Students focus on physics and transport phenomena, and minimal software setup.
+  - **Inclusiveness**: Students without coding experience can still interact!
 
-  - **Diversity**: Students can engage at different levels -- interact with the UI; explore  the code; modify the code!
+  - **Diversity**: multilevel engagement!
+  
+    - interact with the UI
+    - explore  the code
+    - modify the code
 
 ## Different Approaches in Numerical Demonstration (Python)
 
