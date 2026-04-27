@@ -1,0 +1,90 @@
+---
+# title: "2026 Festival of Teaching + Learning Demo Site"
+# subtitle: "Bridging Theory and Practice with AI: Interactive Learning in Highly Theoretical Courses With Modern Coding Tools"
+format:
+  html:
+    toc: false
+    theme: cosmo
+---
+
+::: {.hero-section}
+
+# Bridging Theory and Practice with AI
+
+## Interactive Learning in Highly Theoretical Courses With Modern Coding Tools
+
+**[2026 Festival of Teaching + Learning](https://www.ualberta.ca/en/centre-for-teaching-and-learning/events/festival-of-teaching/2026/schedule.html) Demo Site**
+
+**Dr. Tian Tian**  
+
+Department of Chemical and Materials Engineering, Faculty of Engineering
+
+University of Alberta
+
+:::
+
+---
+
+::: {.callout-note appearance="simple"}
+
+## [Session information](https://www.ualberta.ca/en/centre-for-teaching-and-learning/events/festival-of-teaching/2026/schedule.html#MODAL-28)
+
+**Session type:** Spark Talk — 10 minutes  
+
+**Date:** Tuesday, April 28, 2026  
+
+**Time:** 1:30 p.m. – 2:30 p.m.  
+
+**Location:** Prairie Room, Lister Conference Center
+
+:::
+
+---
+
+## Welcome
+
+This demo site accompanies my Spark Talk for the **2026 Festival of
+Teaching + Learning**, titled "**Bridging Theory and Practice with AI:
+Interactive Learning in Highly Theoretical Courses With Modern Coding
+Tools**". It introduces an interactive course-design framework that
+combines **Quarto**, **marimo**, and **generative AI support** to
+create browser-first learning materials for theory-intensive
+engineering courses. The demo site also mimicks the actual course
+outlines used in my teaching this semester.
+
+You can find my presentation [here](./presentation/index.qmd)
+
+---
+
+## Presentation abstract
+
+This Spark Talk shares my recent experiences designing course
+materials for two highly theoretical engineering courses — [Mass
+Transfer (CH E
+318)](https://tiangroup-uofa.github.io/che318-mass-transfer/) and
+[Kinetics of Materials (MAT E
+664)](https://tiangroup-uofa.github.io/mate664-kinetics-of-materials/)
+— using browser-first interactive course materials and generative AI
+support.
+
+I explore how tools such as marimo, developed with AI acting as a
+coding and design agent, can transform traditionally abstract,
+equation-heavy content into interactive, accessible learning
+experiences that better connect theory with practice. These modules
+emphasize interactivity in conventional engineering plots,
+calculations, and simulations, while remaining fully browser-based and
+requiring no additional setup. This allows students to engage with the
+same materials consistently in and out of class.
+
+I will briefly discuss how these interactive elements were
+incorporated into assignments to support exploratory learning, as well
+as early efforts to create an AI learning companion using Gemini
+Gems to support student understanding beyond the classroom.
+
+The session reflects a personal teaching journey toward creating
+equitable, low-barrier, and versatile learning materials that help
+students stay conceptually aligned across lectures, independent study,
+and assessment, while offering transferable ideas for teaching
+theory-intensive courses across disciplines.
+
+---

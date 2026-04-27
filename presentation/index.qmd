@@ -1,0 +1,137 @@
+---
+title: "Bridging Theory and Practice with AI"
+subtitle: "Interactive Learning in Highly Theoretical Courses With Modern Coding Tools"
+author: "Dr. Tian Tian (FoE)"
+institute: "Department of Chemical and Materials Engineering, University of Alberta"
+date: "2026-04-28"
+format:
+  html: {}
+  revealjs:
+    theme: simple
+    output-file: slides.html
+    width: 1600
+    height: 900
+---
+
+::: {.content-visible when-format="html" unless-format="revealjs"}
+
+::: {.callout-note}
+- Interactive Slides 👉  [Open presentation🗒️](./slides.html)
+:::
+
+:::
+
+
+## Learning outcomes {.center}
+
+After this talk, you will be able to:
+
+- **Identify** teaching challenges in equation-heavy engineering courses
+
+- **Describe** how brower-first interactive practice may support exploratiry learning experience
+
+- **Evaluate** how generative AI can be integrated as a course design partner
+
+## Teaching Background {.center}
+
+The materials in this talk are heavily influenced by two of my courses taught in WS 2026:
+
+:::{.columns}
+
+:::{.column width="50%"}
+
+### Mass Transfer (CH E 318)
+
+- Undergrad course
+- Topics: diffusion / transport models / process design
+- **Equation-heavy**
+
+:::
+
+:::{.column width="50%"}
+
+### Kinetics of Materials (MAT E 664)
+
+- Graduate course
+- Topics: thermally-activated processes, rate laws, material transformation
+- **Equation-heavy**
+
+:::
+
+:::
+
+## Dilemma in Engineering Teaching {.center}
+
+- Theory and equation heavy courses (**70~80 equations per unit**)
+- Textbook concepts are solid, but may appear **lost in equations**
+- How can the students understand the "power" with these equations, if we cannot easily show what the equations do?
+
+## Example: Cooling Tower Design (Reality)
+
+![](./img/how-cooling-towers-work.png){fig-align="center" width="1600px"}
+
+## Example: Cooling Tower Design (Distilled Textbook)
+
+![](./img/cheatsheet-cooling-tower.svg){fig-align="center" width="1600px"}
+
+## EDI Perspective for Numerical Demonstration
+
+My philosophy as a computational chemical engineer: **good equations can always be coded.**
+
+But how do I ensure students can access the same level of insight?
+
+- **Equity**: No "it doesn’t run on my computer."
+
+- **Inclusiveness**: Students focus on physics and transport phenomena, and minimal software setup.
+
+- **Diversity**: Students can engage at different levels -- interact with the UI; explore  the code; modify the code!
+
+## Different Approaches in Numerical Demonstration (Python)
+
+:::{.columns}
+
+:::{.column width="33%"}
+
+### Code-first
+
+![](./img/250px-Python_Windows_source_code_icon_2016.svg.png){height="96px"}
+
+- Just give students the Python code and ask them to run it.
+- **It doesn't work on mine!**
+
+
+:::
+
+:::{.column width="33%"}
+
+### Notebook-first
+
+![](https://raw.githubusercontent.com/jupyterlab/jupyterlab/main/packages/ui-components/style/icons/jupyter/jupyter.svg){height="96px"}
+
+- Jupyter Notebook / Google Colab
+- Students may be lost in heavy codes
+- **Requires setup of server / account**
+
+
+:::
+
+::: {.column width="33%"}
+
+### Interaction-first
+
+![](https://raw.githubusercontent.com/marimo-team/marimo/main/docs/_static/marimo-logotype-thick.svg){height="96px"}
+
+- Marimo notebooks in WebAssembly
+- No registration / server
+- **Everything runs on local browser**
+
+
+::: 
+
+:::
+
+## Interactive Demo
+
+## Integrating GenAI In The Loop
+
+

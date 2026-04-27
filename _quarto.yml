@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 7777
+  post-render: 
+    - _marimo_export.py
+
+website:
+  title: "FoTL 2026 Demo Site (Dr. Tian Tian)"
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: About Demo
+      - href: presentation/
+        text: Presentations
+      - href: scripts/
+        text: Interactive Demos
+  
+  sidebar:
+    title: false
+    style: "docked"
+    search: true
+    background: "#f8f9fa"
+    id: get-started
+    contents:
+      - href: index.qmd
+        id: guide
+      - section: "Presentation"
+        contents:
+          - presentation/index.qmd
+      - section: "Interactive Demos"
+        contents:
+          - scripts.qmd
+
+
+format:
+  revealjs:
+    theme: [default]
+    slide-number: true
+    chalkboard:
+      theme: whiteboard
+      buttons: true
+    preview-links: auto
+    transition: none
+    navigation-mode: linear
+    scrollable: true
+    controls: true
+    controls-layout: bottom-right
+    incremental: false
+    center: false
+    footer: <a href="./index.qmd">2026 FoTL↰</a>
+    title-slide-attributes:
+      data-background-color: "#efefef"
+    number-sections: false
+    # width: 1600
+    # height: 900
+    
+  html:
+    theme: cosmo
+    toc: true
+    code-tools: true
+    code-fold: true
+    code-summary: "Show the code"
+  pdf: {}
