@@ -134,4 +134,13 @@ But how do I ensure students can access the same level of insight?
 
 ## Integrating GenAI In The Loop
 
+## Students Testaments (Midterm SPOT Survey)
+
+- *You should continue using your interactive lecture website.*
+- *... The interactive questions help keep the class engaged and provide useful feedback
+on which topics may need further clarification ...*
+- *... Simulations are great and
+pretty new to see – not many courses incorporate interactive elements like that ...*
+
+
 
