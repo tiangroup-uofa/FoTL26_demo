@@ -22,7 +22,7 @@ format:
 :::
 
 
-## Learning outcomes {.center}
+## Learning Outcomes {.center}
 
 After this talk, you will be able to:
 
@@ -59,6 +59,7 @@ The materials in this talk are heavily influenced by two of my courses taught in
 :::
 
 :::
+
 
 ## Dilemma in Engineering Teaching {.center}
 
@@ -100,7 +101,7 @@ The materials in this talk are heavily influenced by two of my courses taught in
 
 :::{.columns}
 
-:::{.column width="33%"}
+:::{.column .fragment width="33%"}
 
 ### Code-first
 
@@ -112,7 +113,7 @@ The materials in this talk are heavily influenced by two of my courses taught in
 
 :::
 
-:::{.column width="33%"}
+:::{.column .fragment width="33%"}
 
 ### Notebook-first
 
@@ -125,7 +126,7 @@ The materials in this talk are heavily influenced by two of my courses taught in
 
 :::
 
-::: {.column width="33%"}
+::: {.column .fragment width="33%"}
 
 ### Interaction-first
 
@@ -140,17 +141,18 @@ The materials in this talk are heavily influenced by two of my courses taught in
 
 :::
 
-## Interactive Demo
+
+##
 
 ::: {.content-visible when-format="revealjs"}
 
 ![](https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=https%3A%2F%2Ftiangroup-uofa.github.io%2FFoTL26_demo%2Fscripts%2FL31_enthalpy_chart_full.html){.absolute
-     top="15" right="15" width="170px" }
+     top="10" left="10" width="150px" }
 
 :::
 
 ```{=html}
-<iframe src="../scripts/L31_enthalpy_chart_full.html" width="100%" height="780" style="border: 0; border-radius: 12px;" allowfullscreen></iframe>
+<iframe class="r-stretch" src="../scripts/L31_enthalpy_chart_full.html" width="120%" height="960" style="border: 0; border-radius: 0px;" allowfullscreen></iframe>
 ```
 
 
